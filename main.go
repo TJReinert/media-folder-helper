@@ -173,7 +173,7 @@ func main() {
 	var omdbClient *omdb.Client
 	omdbApiKey := os.Getenv("OMDB_API_KEY")
 	if omdbApiKey != "" {
-		omdbClient = omdb.NewClient("omdbApiKey")
+		omdbClient = omdb.NewClient(omdbApiKey)
 	}
 	searchForContent(&model, imdbClient, omdbClient)
 	promptForYear(&model)
