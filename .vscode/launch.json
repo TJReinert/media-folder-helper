@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "D:/Programming/Projects/rip-helper",
+            "args": [
+                "-o", "output.log"
+            ],
+            "console": "integratedTerminal",
+            "envFile": "D:/Programming/Projects/rip-helper/.env"
+        }
+    ]
+}
